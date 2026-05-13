@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --bpbd-orange: #f97316;  /* PRIMARY */
+    --bpbd-blue: #1e3a8a;    /* SECONDARY */
+    --bpbd-red: #dc2626;     /* ALERT */
+    --bpbd-dark: #111827;    /* TEXT */
+    --bpbd-light: #ffffff;   /* BACKGROUND */
+}
+
+.page-header {
+    @apply mb-6;
+}
+
+.page-title {
+    @apply text-2xl font-semibold text-gray-800 leading-tight;
+}
+
+.page-subtitle {
+    @apply text-sm text-gray-500 mt-1;
+}
